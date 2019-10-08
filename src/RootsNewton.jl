@@ -8,7 +8,8 @@ using LinearAlgebra, ForwardDiff
 function newtonroot(f; iv, tolerance=1E-7, maxiter=1000)
     D(f) = x -> ForwardDiff.derivative(f, x)
     f_prime=D(f)
-    return newtonroot(f,f_prime;iv=iv,tolerance=tolerance,maxiter=maxiter)
+    return 0.0
+	#newtonroot(f,f_prime;iv=iv,tolerance=tolerance,maxiter=maxiter)
 end
 
 #This function finds the roots of f(x) taking iv as initial point
