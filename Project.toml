@@ -1,0 +1,13 @@
+name = "RootsNewton"
+uuid = "d9b46b00-e986-11e9-1371-e3cf3ba0aaea"
+authors = ["sebastiangomez87 <54963060+sebastiangomez87@users.noreply.github.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
